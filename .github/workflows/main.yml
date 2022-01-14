@@ -1,14 +1,14 @@
 on: push
-name: 🚀 Deploy website on push
+name: Website
 jobs:
   web-deploy:
-    name: 🎉 Deploy
+    name: Lanseaza
     runs-on: ubuntu-latest
     steps:
-    - name: 🚚 Get latest code
+    - name: Obtine ultimele modificari
       uses: actions/checkout@v2
     
-    - name: 📂 Sync files
+    - name: Sincronizeaza fisierele
       uses: SamKirkland/FTP-Deploy-Action@4.2.0
       with:
         server: ftp.isaidpower.dev
