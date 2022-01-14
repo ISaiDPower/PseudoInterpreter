@@ -52,8 +52,6 @@
                                         apikey: document.getElementById("apikey").value
                                     }));
                                     xhr.onload = function() {
-                                        console.log("HELLO");
-                                        console.log(this.responseText);
                                         var data = JSON.parse(this.responseText);
                                         if (data.status === false) {
                                             alert(data.response);
