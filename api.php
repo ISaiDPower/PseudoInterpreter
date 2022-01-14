@@ -15,7 +15,7 @@ if (!isset($request['type'])) {
 
 switch ($request['type']) {
     case "verifica":
-        $my = new mysqli("localhost", "pseudo", "eXAoMVUKAZ", "pseudo");
+        $my = new mysqli("localhost", "pseudo", "3tOwptx9w@", "pseudo");
         if ($my->connect_error) {
             die(json_encode([
                 'status' => false,
