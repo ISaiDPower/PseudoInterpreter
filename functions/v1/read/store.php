@@ -7,6 +7,6 @@ if (!isset($_GET['value'])) {
 }
 
 session_start();
-$_SESSION['variabile'][$_GET['var']] = $_GET['value'];
+$_SESSION['in'][$_GET['var']] = $_GET['value'];
 die("true");
 ?>
