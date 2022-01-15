@@ -1,4 +1,0 @@
-Options +FollowSymLinks
-RewriteEngine on
-RewriteRule ^read/(.*)/(.*) /read/index.html?variable=$1&type=$2
-RewriteRule ^write/(.*)/(.*) /write/index.html?variable=$1&type=$2
