@@ -1,4 +1,4 @@
 Options +FollowSymLinks
 RewriteEngine on
-RewriteRule ^verifica /api/api.php?type=verifica
-RewriteRule ^citeste /api/api.php?type=citeste
+RewriteRule ^verifica check.php
+RewriteRule ^citeste read.php
