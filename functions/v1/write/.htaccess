@@ -1,0 +1,4 @@
+Options +FollowSymLinks
+RewriteEngine on
+RewriteRule ^(.*)/(.*) index.html?type=$1&variable=$2
+RewriteRule ^(.*)/(.*)/ index.html?type=$1&variable=$2
